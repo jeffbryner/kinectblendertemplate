@@ -1,0 +1,22 @@
+2012 jeff bryner
+@p0wnlabs
+
+A sample .blend blender file that integrates blender and kinect in a first person shooter environment. 
+
+Platform prereqs: 
+
+1) linux with pointclouds.org PCL library for kinect installed and working
+2) blender 2.59 or higher from blender.org
+3) osceleton from github installed and working
+
+To operate: 
+1) Start osceleton -r  <grabs kinect skeleton and initiates joint messages over OSC protocol to the localhost/127.0.0.1)
+2) Make sure osceleton tracks a user
+3) Start the blender file kinecttemplate.blend in game mode (Press P in blender to play)
+4) Gestures: 
+	Lean forward to move forward
+	Lean backward to move backward
+	Lean left to go left
+	Lean right to go right
+	Turn your hips to the right to look right
+	Turn your hips to the left to look left
